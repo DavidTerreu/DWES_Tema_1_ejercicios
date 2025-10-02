@@ -8,6 +8,8 @@
     </head>
     <body>
         <?php
+        include 'header.php';
+        include 'footer.php';
         $nombre = "David";
         $edad = 40;
         $ciudad = "Zaragoza"; ?>
