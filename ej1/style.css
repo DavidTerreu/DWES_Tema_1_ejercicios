@@ -1,0 +1,27 @@
+body{
+    background-color: #b1f3b1;
+    text-align: center;
+}
+.frase{
+    font-size: 1.5rem;
+    padding: 5px 5px 5px 5px;
+    border-radius: 10px;
+    margin-top: 15px;
+    background-color: gold;
+}
+.hora{
+    width: 50%;
+    margin: auto;
+    padding: 5px 5px 5px 5px;
+    margin-top: 15px;
+    border-radius: 10px;
+    background-color: gold;
+}
+.fecha{
+    width: 50%;
+    margin: auto;
+    padding: 5px 5px 5px 5px;
+    margin-top: 15px;
+    border-radius: 10px;
+    background-color: gold;
+}
