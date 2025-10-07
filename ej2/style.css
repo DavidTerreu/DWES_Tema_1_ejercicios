@@ -2,6 +2,9 @@ body{
     background-color: #b1f3b1;
     text-align: center;
 }
+header{
+    background-color: darkgreen;
+}
 .frase{
     font-size: 1.5rem;
     padding: 5px 5px 5px 5px;
@@ -24,4 +27,11 @@ body{
     margin-top: 15px;
     border-radius: 10px;
     background-color: gold;
+}
+.boton{
+    background-color: red;
+}
+footer{
+    display: flex;
+    justify-content: space-evenly;
 }

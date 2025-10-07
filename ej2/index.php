@@ -8,17 +8,27 @@
     </head>
     <body>
         <?php
-        include 'header.php';
-        include 'footer.php';
         $nombre = "David";
         $edad = 40;
         $ciudad = "Zaragoza"; ?>
+        <header>
+            <?php
+            include 'header.php';
+            ?>
+        </header>
 
-        <div class='frase'>Hola, me llamo <?php echo $nombre ?>, tengo  <?php echo $edad ?> años y soy de <?php echo $ciudad ?>.</div>
+        <main>
+            <div class='frase'>Hola, me llamo <?php echo $nombre ?>, tengo  <?php echo $edad ?> años y soy de <?php echo $ciudad ?>.</div>
 
-        <div class='hora'>La hora de hoy es  <?php echo date("H:i:s"); ?> </div>
+            <div class='hora'>La hora de hoy es  <?php echo date("H:i:s"); ?> </div>
 
-        <div class='fecha'>La fecha de hoy es  <?php echo date("d-m-Y") ; ?> </div>
+            <div class='fecha'>La fecha de hoy es  <?php echo date("d-m-Y") ; ?> </div>
+        </main>
+        <footer>
+            <?php
+            include 'footer.php';
+            ?>
+        </footer>
 
     </body>
 </html>
