@@ -1,3 +1,4 @@
+
 <nav>
     <ul>
         <li><a href="index.php">Inicio</a></li>
@@ -8,3 +9,5 @@
 </nav>
 
 <?php
+include "config.php";
+?>

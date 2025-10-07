@@ -7,10 +7,7 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <?php
-        $nombre = "David";
-        $edad = 40;
-        $ciudad = "Zaragoza"; ?>
+
         <header>
             <?php
             include 'header.php';
@@ -18,11 +15,11 @@
         </header>
 
         <main>
-            <div class='frase'>Hola, me llamo <?php echo $nombre ?>, tengo  <?php echo $edad ?> años y soy de <?php echo $ciudad ?>.</div>
+            <div class='frase'>Hola, me llamo <?php echo nombre ?>, tengo  <?php echo edad ?> años y soy de <?php echo ciudad ?>.</div>
+            <img src="./img/basilica-de-nuestra-senora.jpg" alt="foto Zaragoza" width="400"</img>
+            <div class='hora'>La hora de hoy es  <?php echo hora ?> </div>
 
-            <div class='hora'>La hora de hoy es  <?php echo date("H:i:s"); ?> </div>
-
-            <div class='fecha'>La fecha de hoy es  <?php echo date("d-m-Y") ; ?> </div>
+            <div class='fecha'>La fecha de hoy es  <?php echo fecha ?> </div>
         </main>
         <footer>
             <?php

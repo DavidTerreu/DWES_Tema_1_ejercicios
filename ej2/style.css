@@ -1,9 +1,28 @@
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: red;
+}
 body{
-    background-color: #b1f3b1;
+    background-color: #c9f6c9;
     text-align: center;
 }
 header{
-    background-color: darkgreen;
+    background-color: #48ae48;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+li {
+    list-style: none;
+}
+main{
+    height: 80vh;
 }
 .frase{
     font-size: 1.5rem;
@@ -30,8 +49,16 @@ header{
 }
 .boton{
     background-color: red;
+    padding: 5px 5px 5px 5px;
+    border-radius: 5px;
+}
+.boton:hover{
+    color: black;
 }
 footer{
+    background-color: #48ae48;
     display: flex;
     justify-content: space-evenly;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
